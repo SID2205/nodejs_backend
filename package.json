@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_demo",
+  "version": "1.0.0",
+  "main": "app1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_server": "node dist/app1.js",
+    "name": "echo sid",
+    "build": "rm -rf dist/ && tsc",
+    "run": "npm run build && node dist/app1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9"
+  }
+}
